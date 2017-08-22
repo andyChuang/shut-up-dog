@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "ShutUpDog",
+	"description": "Make dogs shut up",
+	"version": "1.0",
+	"permissions": [
+		"activeTab"
+	],
+	"browser_action": {
+		"default_icon": "shut-up.png",
+		"default_popup": "popup.html",
+		"default_title": "Shut Up Dog"
+	}
+}
